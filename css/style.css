@@ -1,0 +1,16 @@
+.tel{
+    background: #04497A;
+}
+
+.tel_logo{
+    float: right;
+    font-size: 0.75em;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.banner {
+    background: #000;
+    height: 100px;
+}
