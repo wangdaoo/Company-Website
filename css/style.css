@@ -1,16 +1,60 @@
-.tel{
-    background: #04497A;
+.tel {
+  background: #04497a;
 }
 
-.tel_logo{
-    float: right;
-    font-size: 0.75em;
-    color: #ffffff;
-    line-height: 26px;
-    margin-bottom: 0;
+.tel_logo {
+  float: right;
+  font-size: 0.75em;
+  color: #ffffff;
+  line-height: 26px;
+  margin-bottom: 0;
 }
 
 .banner {
-    background: #000;
-    height: 100px;
+  background: url(../img/logo.png) no-repeat;
+  margin: 10px auto auto auto;
+  padding: 10px;
+}
+
+.bg-dark {
+  background: #ffffff !important;
+  font-size: 0.85em;
+}
+
+.bg-dark button {
+  background: #cccccc;
+}
+
+.navbar .nav-link {
+  color: #cccccc !important;
+}
+
+.nav-link:hover {
+  color: #04497a !important;
+}
+
+.navbar {
+  float: right;
+}
+
+/* hwasoft */
+
+.soft {
+  margin: 1em auto;
+  padding: 2em;
+}
+
+.soft-h2 {
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.soft-h2 span{
+    color: #E5314F;
+}
+
+@media screen and (max-width: 425px) {
+  .banner {
+    background: none !important;
+  }
 }
