@@ -213,9 +213,21 @@
   border-left: 1px solid #ffffff;
 }
 
-footer p{
+footer{
+  background: #cccccc;
   padding: 10px;
+}
+
+footer p{
+  font-size: 12px;
   text-align: center;
+}
+
+footer a{
+  font-size: 14px;
+  color: #444444;
+  text-align: center;
+  margin-top: 10px;
 }
 /* footer end */
 
