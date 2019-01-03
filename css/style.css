@@ -333,7 +333,7 @@ footer a {
   line-height: 190%;
 }
 
-.news {
+.news-demo {
   margin: 10px auto;
   width: 100%;
   height: 210px;
@@ -344,14 +344,20 @@ footer a {
   cursor: pointer;
 }
 
-.news img{
+.news-demo img{
   width: auto !important;
   float: left;
   margin: auto 10px;
 }
 
-.news p{
+.news-demo p{
   margin: auto !important;
+}
+
+.welfare li{
+  list-style: none;
+  color: #444444;
+  line-height: 200%;
 }
 
 @media screen and (max-width: 992px) {
