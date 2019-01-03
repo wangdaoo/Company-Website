@@ -15,6 +15,7 @@
       href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/glider.min.css" />
   </head>
   <body class="body-scroll">
     <!-- tel start -->
@@ -167,13 +168,17 @@
                       <li>
                         <div class="times">2017-6-1</div>
                         <div class="title">
-                          <a href="">Lorem ipsum dolor sit amet consectetur Sapiente?</a>
+                          <a href=""
+                            >Lorem ipsum dolor sit amet consectetur Sapiente?</a
+                          >
                         </div>
                       </li>
                       <li>
                         <div class="times">2017-6-1</div>
                         <div class="title">
-                          <a href="">Lorem, sit amet consectetur adipisicing.</a>
+                          <a href=""
+                            >Lorem, sit amet consectetur adipisicing.</a
+                          >
                         </div>
                       </li>
                       <li>
@@ -191,7 +196,10 @@
                       <li>
                         <div class="times">2017-6-1</div>
                         <div class="title">
-                          <a href="">ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                          <a href=""
+                            >ipsum dolor sit amet, consectetur adipisicing
+                            elit.</a
+                          >
                         </div>
                       </li>
                       <li>
@@ -224,8 +232,92 @@
     </div>
     <!-- hwasoft end -->
 
+    <!-- banner start -->
+    <div class="container-fluid">
+      <div class="row banner-bg">
+        <div class="col-lg-1 col-xl-2 col-sm-0"></div>
+        <div class="col-lg-10 col-xl-8 col-sm-12 i_warp">
+          <div class="i_name">我们的产品</div>
+          <div class="glider-contain">
+            <div class="glider">
+              <img src="img/img_t1.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t2.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t6.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t3.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t7.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t4.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t5.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t6.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t1.png" alt="" class="img-thumbnail" />
+              <img src="img/img_t7.png" alt="" class="img-thumbnail" />
+            </div>
+            <button role="button" aria-label="Previous" class="glider-prev">
+              «
+            </button>
+            <button role="button" aria-label="Next" class="glider-next">
+              »
+            </button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-2 col-sm-0"></div>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- footer start -->
+    <div class="container-fluid">
+      <div class="row banner-bg1">
+        <div class="col-lg-1 col-xl-2 col-sm-0"></div>
+        <div class="col-lg-10 col-xl-8 col-sm-0">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="caps-left">
+                <p>如需了解我们的产品</p>
+                <h4>联系我们</h4>
+                <h6>华软信息技术有限公司</h6>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i>
+                  位置：济南市高新区颖秀路2766号科研生产楼1-501-1005
+                </p>
+                <p><i class="fas fa-phone-volume"></i> 电话：0531-88823613</p>
+                <p><i class="fas fa-at"></i> Email：sdhr@hwasoft.com</p>
+                <p>
+                  <i class="fab fa-internet-explorer"></i> 网址：www.hwasoft.com
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 caps-right">
+              <p>我们的产品与技术</p>
+              <h2>遍布全国</h2>
+              <img src="./img/img_y7.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-xl-2 col-sm-0"></div>
+      </div>
+    </div>
+    <footer>
+      <p>@Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis.</p>
+    </footer>
+    <!-- footer end -->
+
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
     <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector(".glider"), {
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        draggable: true,
+        dots: ".dots",
+        arrows: {
+          prev: ".glider-prev",
+          next: ".glider-next"
+        }
+      });
+    </script>
   </body>
 </html>
